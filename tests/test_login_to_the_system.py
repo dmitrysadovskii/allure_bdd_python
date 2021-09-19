@@ -4,7 +4,7 @@ from pages.account_page import AccountPage
 import allure
 
 
-@allure.story("Check valid user can login to the system")
+@allure.feature("Check valid user can login to the system")
 def test_login_to_the_system(browser):
     with allure.step('Open login page'):
         main_page = MainPage(browser)
